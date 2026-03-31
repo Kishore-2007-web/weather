@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    width: 350px;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+/* Inputs */
+.input-group {
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/* Row layout */
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #00c853;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #009624;
+}
+
+/* Result Box */
+#resultBox {
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Hidden initially */
+.hidden {
+    display: none;
+}
+
+/* Result Colors */
+.good {
+    background: rgba(0, 255, 0, 0.2);
+}
+
+.warning {
+    background: rgba(255, 165, 0, 0.2);
+}
+
+.danger {
+    background: rgba(255, 0, 0, 0.2);
+}
