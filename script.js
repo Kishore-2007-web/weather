@@ -9,12 +9,12 @@ function getCrop() {
 
     // Smart Logic
     if (rain > 200 && temp > 25) {
-        crop = "🌾 Rice";
+        crop = " Rice";
         advice = "High rainfall detected. Ensure drainage and pest control.";
         statusClass = "good";
     }
     else if (rain < 100 && temp > 30) {
-        crop = "🌱 Millet";
+        crop = " Millet";
         advice = "Dry conditions. Use drip irrigation and conserve water.";
         statusClass = "warning";
     }
