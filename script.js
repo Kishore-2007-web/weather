@@ -19,12 +19,12 @@ function getCrop() {
         statusClass = "warning";
     }
     else if (temp < 20) {
-        crop = "🌿 Wheat";
+        crop = " Wheat";
         advice = "Cool climate suitable. Maintain moderate irrigation.";
         statusClass = "good";
     }
     else if (rain >= 100 && rain <= 200) {
-        crop = "🌽 Maize";
+        crop = " Maize";
         advice = "Balanced conditions. Maintain soil nutrients.";
         statusClass = "good";
     }
