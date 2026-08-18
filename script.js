@@ -19,7 +19,7 @@ function getCrop() {
         statusClass = "warning";
     }
     else if (temp < 20) {
-        crop = " Wheat";
+        crop = " WHEAT";
         advice = "Cool climate suitable. Maintain moderate irrigation.";
         statusClass = "good";
     }
