@@ -24,7 +24,7 @@ function getCrop() {
         statusClass = "good";
     }
     else if (rain >= 100 && rain <= 200) {
-        crop = " Maize";
+        crop = " MAZHI";
         advice = "Balanced conditions. Maintain soil nutrients.";
         statusClass = "good";
     }
